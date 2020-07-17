@@ -1,17 +1,141 @@
+/*the entire row in the body*/
+.row{
+	width:100%;
+}
+
+/* for everything */
+*{
+	box-sizing: border-box;
+}
+
+/*for the div elements*/
+div{
+	display: block;
+}
+
+/*for each section*/
+section {
+    border: 2px solid black;
+    font-family: Cosmic San MS;
+    font-size: 110%;
+    height: 250px;
+    background-color: #bdbdbd;
+    position: relative;
+    }
+
+/*elements with class container*/
+.container {
+    margin: 10px auto 10px auto;
+    padding: 10px;
+}
+
+/*the div span*/
+.title1 {
+	border: 1px solid black;
+    text-align: center;
+    background-color: #e7a1b0;
+    width: 30%;
+    padding: 10px;
+    margin-left: 70%;
+}
+
+/*the div span*/
+.title2{
+	border: 1px solid black;
+    text-align: center;
+    background-color: purple;
+    width: 30%;
+    margin-left: 70%;
+    padding: 10px;
+    color: white;
+}
+
+/*the dive span*/
+.title3{
+ 	border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    width: 30%;
+    padding: 10px;
+    color: red;
+    margin-left: 70%;
+ }
+
+/*the paragraph in the section*/
+ p{
+ 	margin:0;
+ 	padding: 10px;
+ }
+
+ 
+/*for small screen */
+@media (max-width: 768px){
+	.col-sm-12 {
+    width: 100%;
+}
+@media (max-width: 768px){
+	.col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, 
+	.col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, 
+	.col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
+    float: left;
+}
+}
+}
+
+/*For medium screen*/
+@media (max-width: 991px) and (min-width: 768px){
+	.col-md-6 {
+    width: 50%;
+
+}
+@media (max-width: 991px) and (min-width: 768px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4,
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+.col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+}
+}
+
+@media (max-width: 991px) and (min-width: 768px){
+	.col-md-12 {
+    width: 100%;
+}
+@media (max-width: 991px) and (min-width: 768px){
+.col-md-1, .col-md-2, .col-md-3, .col-md-4,
+.col-md-5, .col-md-6, .col-md-7, .col-md-8, 
+.col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+}
+}
+}
+
+/*for large screen*/
+@media (min-width: 992px){
+	.col-lg-4 {
+    width: 33.33%;
+
+}
+@media (min-width: 992px){
+.col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, 
+.col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, 
+.col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+float: left;
+
+}
+}
+}
 
 
-
+/*
 h1{
 	text-align: center;
 	background-color: white;
 	margin: 10%;
  }
 
-/*@media (min-width: 1200px){
 
-}
-*/
-section.row{
+div.row{
 	
 	margin:50px;
 	padding: 15px;
@@ -23,7 +147,7 @@ section.row{
 	
 }
 
-#title1 , #title2 , #title3{
+#title1.col-lg-4.col-md-6.col-sm-12 , #title2.col-lg-4.col-md-6.col-sm-12 , #title3.col-lg-4.col-md-12.col-sm-12{
 	position:relative;
 	border-style: thick;
 	background-color: grey;
@@ -46,5 +170,5 @@ section.row{
 	width: 50%;
 }
 
-
+*/
 
